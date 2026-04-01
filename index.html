@@ -1,24 +1,97 @@
 <!DOCTYPE html>
 <html lang="az">
 <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PMZGP4SV');</script>
     <meta charset="UTF-8">
- <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PRGDZFRV');</script>
-<!-- End Google Tag Manager -->   <title>Sona GTM Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belleza | Kosmetoloji Mağaza</title>
+    
+    <style>
+        body {
+            font-family: 'Playfair Display', serif, Arial;
+            background-color: #fff5f5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .shop-container {
+            background: white;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 15px 40px rgba(255, 182, 193, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            border: 1px solid #ffe4e1;
+        }
+        h1 { color: #d63384; font-size: 2rem; margin-bottom: 5px; }
+        p { color: #888; margin-bottom: 30px; font-style: italic; }
+        
+        .product-card {
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+        .product-card:hover { border-color: #ffb6c1; }
+        
+        .product-name { font-weight: bold; color: #333; display: block; margin-bottom: 10px; }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        
+        .view-btn { background-color: #f8f9fa; color: #d63384; border: 1px solid #d63384; }
+        .cart-btn { background-color: #d63384; color: white; }
+        
+        button:hover { opacity: 0.8; transform: translateY(-2px); }
+        
+        .promo-banner {
+            background: #fff0f5;
+            padding: 10px;
+            font-size: 0.8rem;
+            color: #d63384;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body><!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRGDZFRV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <h1>GTM və GA4 Test Saytı</h1>
-    <hr>
-    <button id="btn-mehsul">Məhsula Bax</button>
-    <button id="btn-sebet">Səbətə At</button>
-    <br><br>
-    <a href="https://google.com" id="link-cixis">Google-a keçid</a>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMZGP4SV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="shop-container">
+        <h1>BELLEZA</h1>
+        <p>Premium Dəri Qulluğu</p>
+
+        <div class="product-card">
+            <span class="product-name">Hyaluronik Serum (30ml)</span>
+            <button id="view_serum" class="view-btn">Məhsula Bax</button>
+            <button id="add_serum" class="cart-btn">Səbətə At - 45 AZN</button>
+        </div>
+
+        <div class="product-card">
+            <span class="product-name">Nəmləndirici Krem</span>
+            <button id="view_cream" class="view-btn">Məhsula Bax</button>
+            <button id="add_cream" class="cart-btn">Səbətə At - 32 AZN</button>
+        </div>
+
+        <div class="promo-banner">
+            ✨ İlk alış-verişdə 10% ENDİRİM!
+        </div>
+    </div>
 </body>
 </html>
